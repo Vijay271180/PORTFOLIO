@@ -1,0 +1,21 @@
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card .bi {
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover .bi {
+  transform: scale(1.2);
+}
+
+.card-title {
+  font-weight: 600;
+}

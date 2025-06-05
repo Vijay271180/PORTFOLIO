@@ -1,0 +1,42 @@
+    body {
+      background-color: #f1f1f1;
+    }
+    .contact-card {
+      max-width: 400px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 30px;
+    }
+    .contact-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .btn-social {
+      margin: 10px 5px;
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-instagram {
+      background-color: #E1306C;
+      color: white;
+    }
+    .btn-facebook {
+      background-color: #3b5998;
+      color: white;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+    }
+    .btn-social:hover {
+      opacity: 0.9;
+    }
